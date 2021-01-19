@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace ConsoleApp4
@@ -8,19 +8,19 @@ namespace ConsoleApp4
         static void Main(string[] args)
         {
 
-            GenericClass<int> intObj = new GenericClass<int>();
+            GenericClass<int> ob = new GenericClass<int>();
 
             
-            intObj.Add(1);
-            intObj.Add(2);
-            intObj.Add(3);     
-            intObj.Add(4);
-            intObj.Add(5);
+            ob.Add(1);
+            ob.Add(2);
+            ob.Add(3);     
+            ob.Add(4);
+            ob.Add(5);
 
            
             for (int i = 0; i < 5; i++)
             {
-                Console.WriteLine(intObj[i]);   
+                Console.WriteLine(ob[i]);   
             }
           
         }
